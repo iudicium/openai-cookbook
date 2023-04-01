@@ -320,7 +320,6 @@ def create_context(question: str, df: pd.DataFrame, max_len=1800):
 
         if cur_len > max_len:
             break
-
         returns.append(row["text"])
 
     # Return the context
